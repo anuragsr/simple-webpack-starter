@@ -85,7 +85,6 @@ module.exports = {
       // Inject the js bundle at the end of the body of the given template
       inject: 'body',
     }),
-    // new BaseHrefWebpackPlugin({ baseHref: '/platzieren/' }),
     new BaseHrefWebpackPlugin({ baseHref: '/' }),
     new CleanWebpackPlugin(buildPath),
     new CopyWebpackPlugin({
